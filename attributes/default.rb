@@ -1,3 +1,4 @@
+default["s3cmd"]["download_url"] = "https://github.com/s3tools/s3cmd/archive/master.tar.gz"
 default["s3cmd"]["access_key"] = ""
 default["s3cmd"]["add_encoding_exts"] = ""
 default["s3cmd"]["add_headers"] = ""
