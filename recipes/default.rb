@@ -7,6 +7,12 @@ remote_file "/tmp/s3cmd.master.tar.gz" do
     mode "0644"
 end
 
+package "python-dateutil" do
+    action :install
+end
+
+
+
 execute "untar_s3cmd" do
     cwd "/tmp"
     command "tar xzvf s3cmd.master.tar.gz"
